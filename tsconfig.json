@@ -16,7 +16,9 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "next": ["./node_modules/next"],
+      "next/font/google": ["./node_modules/next/font/google"],
+      "next/image": ["./node_modules/next/image"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
