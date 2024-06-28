@@ -1,0 +1,31 @@
+{
+  "name": "z-com",
+  "version": "0.1.0",
+  "description": "My Next.js project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.48.0",
+    "@tanstack/react-query-devtools": "^5.48.0",
+    "classnames": "latest",
+    "dayjs": "^1.11.11",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "20.14.9",
+    "@types/react": "18.3.3",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
