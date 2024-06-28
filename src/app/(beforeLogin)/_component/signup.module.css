@@ -105,6 +105,9 @@
 .actionButton:disabled {
     opacity: 0.5;
 }
+.actionButton:disabled:hover {
+    background-color: rgb(15, 20, 25);
+}
 .actionButton:hover {
     background-color: rgb(39,44,48);
 }
